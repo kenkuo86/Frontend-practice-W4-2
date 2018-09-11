@@ -6,6 +6,41 @@
 	<link rel="stylesheet" href="googleform.css">
 </head>
 <body>
+	<!-- <img src="" alt=""> -->
+	<div class="background">
+		<div class="form">
+			<div class="title">
+				<h1>從零到一：程式導師實驗計畫報名表單</h1>
+				<p>
+					詳情請參考：<a href="https://medium.com/@hulitw/mentor-program-b5f96ae1eed1" target="_blank">https://medium.com/@hulitw/mentor-program-b5f96ae1eed1</a><br>
+					記得填完表單之後還要寫信報名才算成功，兩者缺一不可！
+				</p>
+				<p id="must">
+					*必填
+				</p>
+			</div>
+			<div class="Q1">電子郵件地址 <span>*</span></div>
+			<input type="text" id="A1" placeholder="你的電子郵件">
+
+			<div class="Q2">暱稱 <span>*</span><br>該怎麼稱呼你</div>
+			<input type="text" id="A2" placeholder="您的回答">
+
+			<div class="Q3">報名類型 <span>*</span></div>
+			<input type="radio" value="pro">工程師培養班（每週付出四十小時，從零培養到工程師，學費是一個月薪水）<br>
+			<input type="radio" value="amateur">業餘班（依照個人目標訂立學習計畫，學費一萬五千元）
+
+			<div class="Q4">是否有程式相關背景? <span>*</span><br>範例：無、高中時候學過C++、學過一點網頁前端、目前在資策會上課...</div>
+			<input type="text" id="A4" placeholder="您的回答">
+
+			<div class="Q5">其他 <br> 其他任何你想講的</div>
+			<input type="text" id="A5" placeholder="您的回答">
+
+			<div class="submit">提交</div>
+
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="googleform.js"></script>
 </body>
 </html>

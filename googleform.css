@@ -1,4 +1,61 @@
 html, body{
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
+}
+div{
+	position: relative;
+	font-size: 16px;
+}
+.background{
+	height: 100vh;
+	background-color: #E8C362;
+}
+.form{
+	background-color: white;
+	display: inline-block;
+	padding: 16px;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 0 10px #777;
+}
+#must{
+	color: red;
+}
+span{
+	color: red;
+}
+.Q1, .Q2, .Q3, .Q4, .Q5{
+	margin-bottom: 16px;
+}
+input{
+	margin-bottom: 16px;
+}
+input[type = text]{
+	border:0.5px #C9C9C9; 
+	width: 250px;
+	border-bottom-style: solid;
+	border-top-style: none;
+	border-left-style:none;
+	border-right-style:none;
+	transition: 0.3s;
+}
+input[type = text]:focus{
+	width: 250px;
+	border: 2px #737373;
+	border-bottom-style: solid;
+	outline: none;
+}
+input[type = radio]{
+
+}
+.submit{
+	height: 40px;
+	width: 100px;
+	background-color: #316DFF;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 4px;
+	cursor: pointer;
 }
