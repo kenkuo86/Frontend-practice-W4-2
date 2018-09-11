@@ -46,9 +46,7 @@ input[type = text]:focus{
 	border-bottom-style: solid;
 	outline: none;
 }
-input[type = radio]{
 
-}
 .submit{
 	height: 40px;
 	width: 100px;
@@ -58,4 +56,8 @@ input[type = radio]{
 	line-height: 40px;
 	border-radius: 4px;
 	cursor: pointer;
+}
+.alert{
+	background-color: #FF6F63;
+	opacity: .5;
 }
