@@ -3,6 +3,12 @@ html, body{
 	padding: 0;
 	font-family: sans-serif;
 }
+.picture{
+	background: url(open-book.jpg);
+	background-position: 50% 70%;
+	height: 320px;
+
+}
 div{
 	position: relative;
 	font-size: 16px;
@@ -11,13 +17,20 @@ div{
 	height: 960px;
 	background-color: #E8C362;
 }
+/*.colorbar{
+	height: 16px;
+	width: 100%;
+	background-color: blue;
+}*/
 .form{
 	background-color: white;
 	display: inline-block;
 	padding: 16px;
+	top: -120px;
 	left: 50%;
 	transform: translateX(-50%);
 	box-shadow: 0 0 10px #777;
+	border-top: 16px solid #FFBF5E;
 }
 #must{
 	color: red;
