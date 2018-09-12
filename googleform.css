@@ -8,7 +8,7 @@ div{
 	font-size: 16px;
 }
 .background{
-	height: 100vh;
+	height: 960px;
 	background-color: #E8C362;
 }
 .form{
@@ -25,7 +25,7 @@ div{
 span{
 	color: red;
 }
-.Q1, .Q2, .Q3, .Q4, .Q5{
+#Q1, #Q2, #Q3, #Q4, #Q5{
 	margin-bottom: 16px;
 }
 input{
@@ -56,6 +56,10 @@ input[type = text]:focus{
 	line-height: 40px;
 	border-radius: 4px;
 	cursor: pointer;
+	transition: 0.3s;
+}
+.submit:hover{
+	background-color: #3235B5;
 }
 .alert{
 	background-color: #FF6F63;
